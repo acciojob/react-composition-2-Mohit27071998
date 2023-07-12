@@ -12,9 +12,9 @@ const App = () => {
   return (
     <div>
       <button onClick={() => setShowModal(true)}>Show Modal</button>
-      <Modal show={showModal} onClose={handleCloseModal}>
-        <p>This is the content of the modal</p>
-      </Modal>
+      <Modal show={showModal} onClose={handleCloseModal}/>
+       
+      
     </div>
   );
 };

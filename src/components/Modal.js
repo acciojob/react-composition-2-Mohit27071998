@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/App.css'
-const Modal = ({ show, onClose, children }) => {
+const Modal = ({ show, onClose}) => {
   
 
   if (!show) {
@@ -12,7 +12,7 @@ const Modal = ({ show, onClose, children }) => {
       <button className="modal-close" onClick={onClose}>
         Close
       </button>
-      {children}
+      <p>This is the content of the modal.</p>
     </div>
   );
 };
