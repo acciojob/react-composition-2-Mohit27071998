@@ -1,1 +1,9 @@
-
+.modal-overlay {
+    background-color: lightblue;
+    height: 150px;
+    width: 250px;
+  
+  };
+  .modal p{
+    
+  }
